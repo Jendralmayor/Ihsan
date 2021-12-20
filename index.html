@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex/grid</title>
+  </head>
+  <body>
+    <div class="grid grid-cols-4 gap-2 bg-gray-100 mx-24 my-24">
+      <div class="h-[200px] bg-red-300 col-span-2 relative z-10">
+        <div class="absolute right-10 z-0">
+          <img src="/images/bg-pattern-quotation.svg" alt="" />
+        </div>
+        <div class="flex space-x-5">
+          <div>
+            <img
+              class="rounded-full border-4 border-white"
+              src="/images/image-daniel.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Daniel</p>
+            <p>Verified</p>
+          </div>
+        </div>
+        <div>I recieved</div>
+        <div class="relative z-10">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam,
+          consequatur. Necessitatibus suscipit provident quis doloremque
+          distinctio accusamus similique, nisi consequuntur. Dignissimos
+          voluptatibus porro officiis quidem eius expedita minus harum
+          molestiae.
+        </div>
+      </div>
+      <div class="h-[200px] bg-green-300">2</div>
+      <div class="h-full bg-blue-300 row-span-2">3</div>
+      <div class="h-[200px] bg-yellow-300">4</div>
+      <div class="h-[200px] bg-gray-600 col-span-2">5</div>
+    </div>
+  </body>
+</html>
