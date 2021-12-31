@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+
+  <script>
+    //string
+    var digidev = "javascript";
+    var irfan = "html";
+    var hari = "Ini adalah hari jum'at";
+    var ibnu = `css`;
+
+    //number
+    var mobil = 123;
+    var cafe = 022;
+    console.log(cafe);
+
+    //object
+    var sedan = {
+      nama: "bmw",
+      harga: "200000",
+      tahun: 2021,
+      stop() {
+        alert("merah");
+      },
+      mundur() {
+        alert("kuning");
+      },
+    };
+
+    //boolean
+    // hanya ada dua True dan False
+    var isCafe = true;
+    var x = 5;
+    var y = 7;
+
+    //function
+    var digidev = function digidev() {
+      alert("DIGIDEV");
+    };
+
+    // digidev();
+
+    //array
+    var handphone = ["samsung", "apple", "xiomai"];
+    var tahun = [2021, 2022, 2023, 2024, 2025, 2026];
+    var rumah = [
+      {
+        tipe: 200,
+        warna: "merah",
+      },
+      {
+        tipe: 400,
+        warna: "hitam",
+      },
+      {
+        tipe: 600,
+        warna: "biru",
+      },
+    ];
+
+    // string bactic
+    // var digiRoom = `hai ${sedan.stop()}`;
+
+    // debugging
+    let digital = 2000;
+    console.log(digital);
+
+    // x > y ? alert("Benar") : alert("Salah");
+
+    // operand1 ? operand2 : operand3;
+    // condition ? True : False
+
+    // logical
+
+    // condition 1 && condition 2
+    // nilaiSatu != nilaidua && x < y ? alert("Benar") : alert("Salah");
+    // true && true;
+
+    // nilaidua != nilaidua && x === y ? alert("Benar") : alert("Salah");
+    // false && false;
+
+    // nilaiSatu == nilaidua && x !== y ? alert("Benar") : alert("Salah");
+    // true && true;
+
+    // logical and/ &&
+    // semua kondisi (kondisi 1 dan kondisi 2) harus benar
+
+    // logical or ( || )
+    //salah kondisinya true maka bernilai true
+    // nilaiSatu === nilaidua || x !== y ? alert("Benar") : alert("Salah");
+    // false || true;
+    // x != y ? alert("Benar") : alert("Salah");
+
+    var nilaiSatu = 6;
+    var nilaidua = 5;
+    x = 12;
+    y = 11;
+
+    if (x == 5) {
+      alert("x adalah sama dengan dari 5");
+    } else if (x == 9) {
+      alert("x adalah sama dengan 9");
+    } else if (x !== 10) {
+      alert("x adalah sama dengan 10");
+    } else {
+      alert("tidak ada kondisi yg benar");
+    }
+  </script>
+</html>
